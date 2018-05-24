@@ -18,7 +18,7 @@
 			}
 		}
 		.active{
-			background-color: lightgrey;
+			background-color: #F4F5F5;
 		}
 	}	
 	.icon-bar{
@@ -85,5 +85,18 @@
 	h5{
 		font-size: 20px;
 		text-align: justify;
+	}
+}
+
+/*BOX 4*/
+.box4{	
+	margin-left: 5%;
+	h1{
+		font-family: 'Libre Baskerville', serif;
+		font-size: 28px;
+	}	
+	img{
+		display: inline-flex;
+		width: 33%;
 	}
 }

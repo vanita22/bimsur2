@@ -5814,7 +5814,7 @@ button.close {
       .navbar ul li a:hover {
         border-bottom: 2px solid black; }
     .navbar ul .active {
-      background-color: lightgrey; }
+      background-color: #F4F5F5; }
   .navbar .icon-bar {
     border: 2px solid black; }
 
@@ -5868,5 +5868,15 @@ button.close {
   .box3 h5 {
     font-size: 20px;
     text-align: justify; }
+
+/*BOX 4*/
+.box4 {
+  margin-left: 5%; }
+  .box4 h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px; }
+  .box4 img {
+    display: inline-flex;
+    width: 33%; }
 
 /*# sourceMappingURL=main.css.map */
