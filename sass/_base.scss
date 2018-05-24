@@ -1,0 +1,88 @@
+/*MENÚ*/
+.navbar{
+	background-color: white;
+	color: black;
+	border-bottom: 1px solid black;
+	font-family: 'Kameron', serif;
+	font-size: 18px;
+	margin-top: 1%;	
+	ul{
+		width: 100%;
+		li{
+			margin-right: 3%;
+			a{
+				color: black;				
+			}
+			a:hover{
+				border-bottom: 2px solid black;
+			}
+		}
+		.active{
+			background-color: lightgrey;
+		}
+	}	
+	.icon-bar{
+		border: 2px solid black;
+	}
+}
+
+/*PRINCIPAL*/
+.principal{
+	background-image: url(../sass/imagenes/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+/*BOX 1*/
+.box{
+	background-color: black;
+	opacity: 0.94;
+	width: 80%;
+	height: auto;
+	padding: 2%;
+	margin-left: 10%;
+	.container{
+		width: 100%;
+		color: white;
+		h1{
+			font-family: 'Libre Baskerville', serif;
+			font-size: 28px;
+		}
+		h5{
+			font-family: 'Arimo', sans-serif;
+			font-size: 24px;
+			text-align: justify;
+		}
+		h2{
+			font-family: 'Libre Baskerville', serif;
+			font-size: 27px;
+		}
+		li{
+			font-size: 24px;
+		}
+	}
+}
+
+/*BOX 2*/
+.box2{
+	width: 75%;
+	margin-left: 10%;	
+	padding: 2%;
+	h5{
+		font-size: 25px;
+		text-align: justify;
+	}
+}
+
+/*BOX 3*/
+.box3{
+	width: 75%;
+	margin-left: 10%;	
+	padding: 2%;
+	h5{
+		font-size: 20px;
+		text-align: justify;
+	}
+}
