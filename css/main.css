@@ -5878,5 +5878,27 @@ button.close {
   .box4 img {
     display: inline-flex;
     width: 33%; }
+  @media (max-width: 830px) {
+    .box4 img {
+      width: 100%; } }
+  .box4 .imagen-a img {
+    width: 49.5%; }
+  @media (max-width: 830px) {
+    .box4 .imagen-a img {
+      width: 100%;
+      display: block; } }
+  .box4 .video-a {
+    display: inline-flex; }
+  @media (max-width: 830px) {
+    .box4 .video-a {
+      display: block; } }
+
+@media (max-width: 830px) {
+  .box4 {
+    display: block;
+    width: 100%; }
+
+  img {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
