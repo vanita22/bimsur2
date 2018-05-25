@@ -5940,4 +5940,33 @@ button.close {
   .box5 .datos p {
     font-size: 30px; }
 
+@media (max-width: 810px) {
+  .box5 {
+    width: 100%; }
+    .box5 h1 {
+      float: left; }
+    .box5 p {
+      float: left; }
+    .box5 input {
+      margin-top: 1%;
+      margin-right: 25%; }
+    .box5 .mens {
+      margin-top: 1%;
+      margin-left: -1%; }
+    .box5 textarea {
+      margin-top: 1%;
+      margin-right: 25%; }
+    .box5 button {
+      margin-right: 25%; }
+    .box5 .datos {
+      width: 100%;
+      margin-right: 30%; }
+      .box5 .datos p {
+        font-size: 25px;
+        display: inline-flex;
+        margin-left: 20%;
+        margin-top: -11%; }
+      .box5 .datos i {
+        margin-right: 60%; } }
+
 /*# sourceMappingURL=main.css.map */
