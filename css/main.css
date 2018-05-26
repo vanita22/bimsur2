@@ -5878,22 +5878,22 @@ button.close {
   .box4 img {
     display: inline-flex;
     width: 33%; }
-  @media (max-width: 830px) {
+  @media (max-width: 800px) {
     .box4 img {
       width: 100%; } }
   .box4 .imagen-a img {
     width: 49.5%; }
-  @media (max-width: 830px) {
+  @media (max-width: 800px) {
     .box4 .imagen-a img {
       width: 100%;
       display: block; } }
   .box4 .video-a {
     display: inline-flex; }
-  @media (max-width: 830px) {
+  @media (max-width: 800px) {
     .box4 .video-a {
       display: block; } }
 
-@media (max-width: 830px) {
+@media (max-width: 800px) {
   .box4 {
     display: block;
     width: 100%; }
@@ -5940,7 +5940,7 @@ button.close {
   .box5 .datos p {
     font-size: 30px; }
 
-@media (max-width: 810px) {
+@media (max-width: 800px) {
   .box5 {
     width: 100%; }
     .box5 h1 {

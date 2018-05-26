@@ -99,7 +99,7 @@
 		display: inline-flex;
 		width: 33%;
 	}
-	@media (max-width: 830px){
+	@media (max-width: 800px){
 		img{
 			width: 100%;
 		}
@@ -107,7 +107,7 @@
 	.imagen-a img{
 		width: 49.5%;		
 	}
-	@media (max-width: 830px){
+	@media (max-width: 800px){
 		.imagen-a img{
 			width: 100%;
 			display: block;
@@ -116,13 +116,13 @@
 	.video-a{
 		display: inline-flex;
 	}
-	@media (max-width: 830px){
+	@media (max-width: 800px){
 		.video-a{
 			display: block;
 		}
 	}
 }
-@media (max-width: 830px){
+@media (max-width: 800px){
 	.box4{
 		display: block;
 		width: 100%;
@@ -183,7 +183,7 @@
 	}	
 }
 
-@media (max-width: 810px){
+@media (max-width: 800px){
 	.box5{
 		width: 100%;
 		h1{
