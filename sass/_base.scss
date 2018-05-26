@@ -113,12 +113,16 @@
 			display: block;
 		}
 	}
+	.imagen-b img{
+		width: 99%;		
+	}
 	.video-a{
 		display: inline-flex;
 	}
 	@media (max-width: 800px){
-		.video-a{
+		.video-a iframe{
 			display: block;
+			width: 100%;
 		}
 	}
 }

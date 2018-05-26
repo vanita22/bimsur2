@@ -5887,11 +5887,14 @@ button.close {
     .box4 .imagen-a img {
       width: 100%;
       display: block; } }
+  .box4 .imagen-b img {
+    width: 99%; }
   .box4 .video-a {
     display: inline-flex; }
   @media (max-width: 800px) {
-    .box4 .video-a {
-      display: block; } }
+    .box4 .video-a iframe {
+      display: block;
+      width: 100%; } }
 
 @media (max-width: 800px) {
   .box4 {
